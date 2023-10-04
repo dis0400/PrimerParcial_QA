@@ -1,9 +1,9 @@
 # PrimerParcial_QA
 #### MATERIA:
 Verificacion y Prueba de Sistemas informáticos
-# FECHA: 
+#### FECHA: 
 04/10/23
-# ESTUDIANTE: 
+#### ESTUDIANTE: 
 Alexia Diana Marin Mamani
-# CÓDIGO: 
+#### CÓDIGO: 
 60855
