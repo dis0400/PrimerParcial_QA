@@ -28,5 +28,17 @@ public class Salario1Test {
 
         assertEquals(0.05 * salario, descuento);
     }
+    @Test
+    public void testCalcularDescuentoDescuento15PorCiento() {
 
+        Salarios1 salarioManager = spy(new Salarios1());
+        double salario = 3000.0;
+        doReturn(0.15 * salario).when(salarioManager).calcularDescuento(salario);
+
+        double descuento = salarioManager.calcularDescuento(salario);
+
+        verify(salarioManager, times(1)).calcularDescuento(salario);
+
+        assertEquals(0.15 * salario, descuento);
+    }
 }

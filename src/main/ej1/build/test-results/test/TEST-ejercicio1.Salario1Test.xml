@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ejercicio1.Salario1Test" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-05T02:01:50" hostname="ASUSALEXIA" time="0.974">
+<testsuite name="ejercicio1.Salario1Test" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-05T02:10:57" hostname="ASUSALEXIA" time="0.618">
   <properties/>
-  <testcase name="testCalcularDescuentoDescuento15PorCiento()" classname="ejercicio1.Salario1Test" time="0.974">
-    <failure message="org.mockito.exceptions.misusing.UnfinishedStubbingException: &#10;Unfinished stubbing detected here:&#10;-&gt; at ejercicio1.Salario1Test.testCalcularDescuentoDescuento15PorCiento(Salario1Test.java:36)&#10;&#10;E.g. thenReturn() may be missing.&#10;Examples of correct stubbing:&#10;    when(mock.isOk()).thenReturn(true);&#10;    when(mock.isOk()).thenThrow(exception);&#10;    doThrow(exception).when(mock).someVoidMethod();&#10;Hints:&#10; 1. missing thenReturn()&#10; 2. you are trying to stub a final method, which is not supported&#10; 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed&#10;" type="org.mockito.exceptions.misusing.UnfinishedStubbingException">org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+  <testcase name="testCalcularDescuentoDescuento5PorCiento()" classname="ejercicio1.Salario1Test" time="0.618">
+    <failure message="org.mockito.exceptions.misusing.UnfinishedStubbingException: &#10;Unfinished stubbing detected here:&#10;-&gt; at ejercicio1.Salario1Test.testCalcularDescuentoDescuento5PorCiento(Salario1Test.java:24)&#10;&#10;E.g. thenReturn() may be missing.&#10;Examples of correct stubbing:&#10;    when(mock.isOk()).thenReturn(true);&#10;    when(mock.isOk()).thenThrow(exception);&#10;    doThrow(exception).when(mock).someVoidMethod();&#10;Hints:&#10; 1. missing thenReturn()&#10; 2. you are trying to stub a final method, which is not supported&#10; 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed&#10;" type="org.mockito.exceptions.misusing.UnfinishedStubbingException">org.mockito.exceptions.misusing.UnfinishedStubbingException: 
 Unfinished stubbing detected here:
--&gt; at ejercicio1.Salario1Test.testCalcularDescuentoDescuento15PorCiento(Salario1Test.java:36)
+-&gt; at ejercicio1.Salario1Test.testCalcularDescuentoDescuento5PorCiento(Salario1Test.java:24)
 
 E.g. thenReturn() may be missing.
 Examples of correct stubbing:
@@ -16,7 +16,7 @@ Hints:
  2. you are trying to stub a final method, which is not supported
  3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
 
-	at app//ejercicio1.Salario1Test.testCalcularDescuentoDescuento15PorCiento(Salario1Test.java:40)
+	at app//ejercicio1.Salario1Test.testCalcularDescuentoDescuento5PorCiento(Salario1Test.java:27)
 	at java.base@18.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base@18.0.2/java.lang.reflect.Method.invoke(Method.java:577)
 	at app//org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
